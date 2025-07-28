@@ -1,7 +1,0 @@
-{
-  "parent": "applemod:block/apple_leaves",
-
-  "textures": {
-    "layer0": "applemod:block/apple_leaves"
-  }
-}
