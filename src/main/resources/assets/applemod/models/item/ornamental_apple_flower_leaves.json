@@ -1,0 +1,10 @@
+{
+  "parent": "applemod:block/ornamental_apple_flower_leaves",
+
+  "textures": {
+    "layer0": "applemod:block/ornamental_apple_flower_leaves"
+  }
+}
+
+
+
