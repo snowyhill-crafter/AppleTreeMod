@@ -1,4 +1,4 @@
-# AppleTreeMod1.0.0
+# AppleTreeMod
 Apple trees grow naturally in some biomes, and provide ornamental leaves block.
 
 You can use the resource files(image, sound, etc.) in this repository for your study.
