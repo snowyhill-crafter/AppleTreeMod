@@ -1,0 +1,7 @@
+{
+  "parent": "appletreemod:block/apple_leaves",
+
+  "textures": {
+    "layer0": "appletreemod:block/apple_leaves"
+  }
+}
