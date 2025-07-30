@@ -1,6 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "#applemod:apple_tree_spawnable",
-  "features": "applemod:apple_tree",
-  "step": "vegetal_decoration"
-}
