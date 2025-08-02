@@ -1,6 +1,6 @@
 package com.snowyhill.appletreemod;
 
-import com.mojang.logging.LogUtils;
+//import com.mojang.logging.LogUtils;
 
 import com.snowyhill.appletreemod.registry.ModBlocks;
 import com.snowyhill.appletreemod.registry.ModItems;
@@ -17,7 +17,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import org.slf4j.Logger;
+//import org.slf4j.Logger;
 
 
 @Mod(AppleTreeMod.MOD_ID)
@@ -25,12 +25,12 @@ public class AppleTreeMod
 {
 
     public static final String MOD_ID = "appletreemod";
-    private static final Logger LOGGER = LogUtils.getLogger();
+//    private static final Logger LOGGER = LogUtils.getLogger();
 
 
-    public AppleTreeMod()
+    public AppleTreeMod(FMLJavaModLoadingContext context)
     {
-        IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+        IEventBus modEventBus = context.getModEventBus();
 
 
         modEventBus.addListener(this::commonSetup);
