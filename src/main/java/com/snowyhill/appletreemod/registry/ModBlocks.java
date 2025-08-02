@@ -2,12 +2,13 @@ package com.snowyhill.appletreemod.registry;
 
 import com.snowyhill.appletreemod.AppleTreeMod;
 import com.snowyhill.appletreemod.block.AppleFlowerLeavesBlock;
-import com.snowyhill.appletreemod.block.AppleSaplingBlock;
 import com.snowyhill.appletreemod.block.ModLeavesBlock;
 
+import com.snowyhill.appletreemod.worldgen.tree.ModTreeGrowers;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 
+import net.minecraft.world.level.block.SaplingBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 
 import net.minecraftforge.registries.DeferredRegister;
@@ -20,8 +21,8 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> APPLE_SAPLING = BLOCKS.register(
             "apple_sapling",
-            () -> new AppleSaplingBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SAPLING).randomTicks()));
-
+            () -> new SaplingBlock(ModTreeGrowers.APPLE_TREE,
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SAPLING)));
 
     public static final RegistryObject<Block> APPLE_LEAVES = BLOCKS.register(
             "apple_leaves",
