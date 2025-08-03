@@ -38,7 +38,7 @@ public class ModFeatures {
 
         FeatureUtils.register(context, APPLE_TREE_KEY, Feature.TREE,
                 new TreeConfiguration.TreeConfigurationBuilder(
-                        BlockStateProvider.simple(Blocks.OAK_LOG),
+                        BlockStateProvider.simple(ModBlocks.APPLE_LOG.get()),
                         new StraightTrunkPlacer(5, 1, 0),// 少し短く、分岐なしで自然な幹
 
                         // ここで葉をランダム化。ティックの不具合回避のため実の成長なし。実を直接呼び出す。
