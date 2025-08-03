@@ -138,4 +138,15 @@ public class AppleFlowerLeavesBlock extends LeavesBlock implements BonemealableB
         int i = Math.min(MAX_AGE, pState.getValue(AGE) + 1);
         pLevel.setBlock(pPos, pState.setValue(AGE, Integer.valueOf(i)), 2);
     }
+
+    @Override
+    public int getFlammability(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+        return 60;
+    }
+
+    @Override
+    public int getFireSpreadSpeed(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+        return 30;
+    }
+    
 }
