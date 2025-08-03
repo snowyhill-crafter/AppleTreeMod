@@ -3,7 +3,9 @@
   "textures": {
     "particle": "appletreemod:block/apple_leaves",
     "leaves": "appletreemod:block/apple_leaves",
-    "fruit": "appletreemod:block/apple_flower_leaves_stage_1"
+    "fruit": "appletreemod:block/apple_flower_leaves_stage_1",
+    "fruitup": "appletreemod:block/apple_flower_leaves_stage_1_up",
+    "fruitdown":"appletreemod:block/apple_flower_leaves_stage_1_down"
   },
   "elements": [
     {
@@ -14,7 +16,7 @@
         "south": { "texture": "#leaves", "tintindex": 1 },
         "east":  { "texture": "#leaves", "tintindex": 1 },
         "west":  { "texture": "#leaves", "tintindex": 1 },
-        "up":    { "texture": "#leaves", "tintindex": 1 },
+        "up":    { "texture": "#fruitup", "tintindex": -1 },
         "down":  { "texture": "#leaves", "tintindex": 1 }
       }
     },
@@ -25,7 +27,9 @@
         "north": { "texture": "#fruit", "tintindex": -1 },
         "south": { "texture": "#fruit", "tintindex": -1 },
         "east":  { "texture": "#fruit", "tintindex": -1 },
-        "west":  { "texture": "#fruit", "tintindex": -1 }
+        "west":  { "texture": "#fruit", "tintindex": -1 },
+        "up":    { "texture": "#leaves", "tintindex": 1 },
+        "down":  { "texture": "#fruitdown", "tintindex": -1 }
       }
     }
   ],
