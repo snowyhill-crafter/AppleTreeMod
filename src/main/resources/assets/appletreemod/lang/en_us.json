@@ -2,6 +2,21 @@
 
   "creativetabs.appletreemod_tab": "applemod",
   "block.appletreemod.apple_sapling": "Apple Sapling",
+  "block.appletreemod.apple_log": "Apple Log",
+  "block.appletreemod.stripped_apple_log": "Stripped Apple Log",
+  "block.appletreemod.apple_wood": "Apple Wood",
+  "block.appletreemod.stripped_apple_wood": "Stripped Apple Wood",
+
+  "block.appletreemod.apple_planks": "Apple Planks",
+  "block.appletreemod.apple_slab": "Apple Slab",
+  "block.appletreemod.apple_stairs": "Apple Stairs",
+  "block.appletreemod.apple_fence": "Apple Fence",
+  "block.appletreemod.apple_fence_gate": "Apple Fence Gate",
+  "block.appletreemod.apple_door": "Apple Door",
+  "block.appletreemod.apple_trapdoor": "Apple Trapdoor",
+  "block.appletreemod.apple_button": "Apple Button",
+  "block.appletreemod.apple_pressure_plate": "Apple Pressure Plate",
+
   "block.appletreemod.apple_leaves": "Apple Leaves",
   "block.appletreemod.apple_flower_leaves": "Flowering apple leaves",
   "block.appletreemod.ornamental_apple_flower_leaves": "Ornamental flowering apple leaves",

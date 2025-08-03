@@ -2,6 +2,22 @@
 
   "creativetabs.appletreemod_tab": "リンゴの木MOD",
   "block.appletreemod.apple_sapling": "リンゴの苗木",
+  "block.appletreemod.apple_log": "リンゴの原木",
+  "block.appletreemod.stripped_apple_log": "樹皮を剥いだリンゴの原木",
+  "block.appletreemod.apple_wood": "リンゴの木",
+  "block.appletreemod.stripped_apple_wood": "樹皮を剥いだリンゴの木",
+
+  "block.appletreemod.apple_planks": "リンゴの板材",
+  "block.appletreemod.apple_slab": "リンゴのハーフブロック",
+  "block.appletreemod.apple_stairs": "リンゴの階段",
+  "block.appletreemod.apple_fence": "リンゴのフェンス",
+  "block.appletreemod.apple_fence_gate": "リンゴのフェンスゲート",
+  "block.appletreemod.apple_door": "リンゴのドア",
+  "block.appletreemod.apple_trapdoor": "リンゴのトラップドア",
+  "block.appletreemod.apple_button": "リンゴのボタン",
+  "block.appletreemod.apple_pressure_plate": "リンゴの感圧板",
+
+
   "block.appletreemod.apple_leaves": "リンゴの葉",
   "block.appletreemod.apple_flower_leaves": "花の咲いたリンゴの葉",
   "block.appletreemod.ornamental_apple_flower_leaves": "装飾用の花の咲いたリンゴの葉",

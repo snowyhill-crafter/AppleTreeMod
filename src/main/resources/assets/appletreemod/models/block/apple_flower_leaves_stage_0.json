@@ -25,7 +25,9 @@
         "north": { "texture": "#flower", "tintindex": -1 },
         "south": { "texture": "#flower", "tintindex": -1 },
         "east":  { "texture": "#flower", "tintindex": -1 },
-        "west":  { "texture": "#flower", "tintindex": -1 }
+        "west":  { "texture": "#flower", "tintindex": -1 },
+        "up":    { "texture": "#flower", "tintindex": -1 },
+        "down":  { "texture": "#flower", "tintindex": -1 }
 
       }
     }
