@@ -70,15 +70,6 @@ public class AppleTreeMod
 
     private void commonSetup(final FMLCommonSetupEvent event)
     {
-        //可燃性ブロックにする
-        event.enqueueWork(() -> {
-            FireBlock fireblock = (FireBlock) Blocks.FIRE;
-
-            fireblock.setFlammable(ModBlocks.APPLE_LEAVES.get(), 60, 30);
-            fireblock.setFlammable(ModBlocks.APPLE_FLOWER_LEAVES.get(), 60, 30);
-
-
-        });
 
     }
 
